@@ -17,3 +17,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+himpunan:
+  label: Himpunan
+  permalink: /himpunan
+  description: Seluruh topik terkait himpunan/organisasi
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Seluruh tutorial
+
+tools:
+  label: Tools
+  permalink: /tools
+  description: Rekomendasi atau penjelasan terkait sebuah tools
