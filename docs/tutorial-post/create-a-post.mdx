@@ -1,0 +1,34 @@
+---
+sidebar_position: 1
+author: Kenneth Ezekiel
+---
+
+# Creating your first post
+
+## Create your author profile
+
+The first step before writing your own blog post is to create your author profile under `blog/authors.yml`, complete your profile with the following format:
+
+```yml
+{tag_name}:
+  name: {author name}
+  url: {url to author profile}
+  image_url: {image profile}
+  page: true
+  socials:
+    {socials}: {social links/username}
+```
+
+## Start writing your blog post
+
+After creating your author profile, you can start writing your own blog post:
+
+1. Create a folder with the format \{yyyy-mm-dd-title\} under `blog/`
+2. Create an `attachments` folder in the folder if necessary
+3. Create a `index.md` file in the folder (use template), and start writing!
+
+There are also other alternatives:
+
+1. If you don't need attachments, you can create the blog post directly in the folder, but it is recommended to create your blog post inside a folder
+2. If you need an interactive post, you can use `.mdx` files for your blog post, that can interact with user using JSX directly in the file
+3. You can also add tags in the `blog/tags.yml` file if you need, it is recommended to create your own tag or use tags relevant to your topic
